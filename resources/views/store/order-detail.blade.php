@@ -48,6 +48,9 @@
 					<a href="{{ route('cart-show') }}" class="btn btn-primary">
 						<i class="fa fa-chevron-circle-left"></i> Regresar
 					</a>
+					<a href="{{ route('order-ready') }}" class="btn btn-success">
+						Comprar <i class="fa fa-chevron-circle-right"></i>
+					</a>
 				</p>
 				<hr>
 			</div>

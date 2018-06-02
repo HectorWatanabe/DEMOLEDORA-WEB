@@ -71,4 +71,9 @@ class CartController extends Controller
         return redirect()->route('shop');
     }
 
+    public function success(){
+        \Session::forget('cart');
+        return view('store.ready');
+    }
+
 }

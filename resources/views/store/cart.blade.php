@@ -65,7 +65,7 @@
 		</div>
 		<hr>
 		<p>
-			<a href="{{ route('home') }}" class="btn btn-primary">
+			<a href="{{ route('shop') }}" class="btn btn-primary">
 				<i class="fa fa-chevron-circle-left"></i> Seguir Comprando
 			</a>
 			<a href="{{ route('order-detail') }}" class="btn btn-primary">

@@ -70,7 +70,7 @@ Route::post('register', [
 
 // Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
 
 // Carrito -----------------
 
@@ -103,4 +103,10 @@ Route::get('order-detail', [
 	'middleware' => 'auth',
 	'as' => 'order-detail',
 	'uses' => 'CartController@orderDetail'
+]);
+
+Route::get('order-ready', [
+	'middleware' => 'auth',
+	'as' => 'order-ready',
+	'uses' => 'CartController@success'
 ]);
