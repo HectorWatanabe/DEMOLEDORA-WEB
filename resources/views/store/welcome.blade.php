@@ -7,11 +7,29 @@
        <div id="fwslider">
 	         <div class="slider_container">
 	            <div class="slide">
-	               <img src="{{url('snowboarding_template/images/slider2.jpg')}}" class="img-responsive" alt=""/>
+	               <img src="{{url('images/romper1.jpg')}}" class="img-responsive" alt=""/>
 	                <div class="slide_content">
 	                    <div class="slide_content_wrap">
-	                        <h1 class="title">Run Over<br>Everything</h1>
-	                       	<div class="button"><a href="#">See Details</a></div>
+	                        <h1 class="title">Vive la experiencia al máximo</h1>
+	                       	<div class="button"><a href="{{ route('shop') }}">Ir a la Tienda</a></div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="slide">
+	               <img src="{{url('images/romper2.jpg')}}" class="img-responsive" alt=""/>
+	                <div class="slide_content">
+	                    <div class="slide_content_wrap">
+	                        <h1 class="title">Se parte de nuestro servicio</h1>
+	                       	<div class="button"><a href="{{ route('shop') }}">Ir a la Tienda</a></div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="slide">
+	               <img src="{{url('images/romper3.jpg')}}" class="img-responsive" alt=""/>
+	                <div class="slide_content">
+	                    <div class="slide_content_wrap">
+	                        <h1 class="title">Atrévete a romper lo que quieras</h1>
+	                       	<div class="button"><a href="{{ route('shop') }}">Ir a la Tienda</a></div>
 	                    </div>
 	                </div>
 	            </div>
@@ -27,9 +45,11 @@
 		<div class="container">
 			<div class="row content_bottom-text">
 		  		<div class="col-md-7">
-					<h3>The Mountains<br>Snowboarding</h3>
-					<p class="m_1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.</p>
-					
+					<h3>Demoledora<br>Strash</h3>
+					<p class="m_1">
+						Somos una empresa nacional dedicada al rubro de reducir el nivel de estrés causado por la carga laboral y estudios.
+						Demoledora te conecta con tu centro de relajación en la que encontrarás la liberación mediante una manifestación física. Te ofrecemos STRASH. Olvídate del estrés mediante el “crash” (sonido de las cosas al romper). La liberación del cuerpo permite la liberación del alma. Con nosotros, podrás romper con todo lo que te incomoda, estresa o mortifica. Canaliza toda tu frustración y junto a nosotros rompe con esa tensión. Demoledora te ofrece esto y mucho más.
+					</p>
 				</div>
 				<div class="">
 					<p> </p>

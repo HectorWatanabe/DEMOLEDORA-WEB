@@ -6,10 +6,10 @@
 		<div class="container">
 			<div class="col-md-6">
 				 <div class="login-page">
-					<h4 class="title">New Customers</h4>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
+					<h4 class="title">Nuevo Usuario</h4>
+					<p>Registrate para poder terminar la compra del servicio.</p>
 					<div class="button1">
-					   <a href="{{ route('register-get') }}"><input type="submit" name="Submit" value="Create an Account"></a>
+					   <a href="{{ route('register-get') }}"><input type="submit" name="Submit" value="Crear Cuenta"></a>
 					 </div>
 					 <div class="clear"></div>
 				  </div>
@@ -33,10 +33,7 @@
 						      <input id="modlgn_passwd" type="password" name="password" class="inputbox" size="18" autocomplete="off" >
 						    </p>
 						    <div class="remember">
-							    <p id="login-form-remember">
-							      <label for="modlgn_remember"><a href="#">Forget Your Password ? </a></label>
-							   </p>
-							    <input type="submit" name="Submit" class="button" value="Login"><div class="clear"></div>
+							    <input type="submit" name="Submit" class="button" value="Ingresar"><div class="clear"></div>
 							 </div>
 						  </fieldset>
 						 </form>

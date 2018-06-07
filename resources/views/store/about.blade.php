@@ -7,18 +7,17 @@
 		<div class="row">
 			<div class="col-md-4 team_bottom">
 			  <ul class="team_list">
-				<h4>Advantages</h4>
-	            <li><a href="#">Always free from repetition</a><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</p></li>
-	            <li><a href="#">Always free from repetition</a><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</p></li>
-	            <li><a href="#">Always free from repetition</a><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</p></li>
-	            <li><a href="#">Always free from repetition</a><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</p></li>
+				<h4>Misión</h4>
+	            <li><p>Somos una empresa que brinda el servicio de reducir el estrés en personas que trabajan y estudiantes universitarios, a fin de mejorar la calidad de vida de nuestros clientes mediante la técnica de destruir objetos.
+				</p></li>
+	            <h4>Visión</h4>
+	            <li><p>Ser la empresa líder en el tratamiento alternativo para la reducción de estrés, mediante destrucción de objetos, a nivel nacional.
+				</p></li>
 	          </ul>
 			</div>
 			<div class="col-md-8">
 				<ul class="team_list">
-				 <h4>Vision Statement</h4>
-				 <p class="m_7">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-	             <img src="{{url('snowboarding_template/images/team5.jpg')}}" class="img-responsive" alt=""/>
+	             <img src="{{url('images/nosotros.jpg')}}" class="img-responsive" alt=""/>
 	          </ul>
 			</div>
 		</div>
